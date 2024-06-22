@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 5px;
+
+    &__title {
+        margin: 0px;
+        padding: 5px 10px 0 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__description {
+        text-align: center;
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &__status {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 14px;
+        gap: 3px;
+
+        &__label{
+            font-weight: bold;
+        }
+
+        &__value{
+            text-decoration: underline;
+        }
+    }
+
+    &__action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    
+        &__button {
+            margin: 0 5px;
+        }
+    }
+}
+

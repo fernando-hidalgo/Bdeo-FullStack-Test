@@ -1,0 +1,11 @@
+{
+    "CARD":{
+        "STATUS": "Estado:"
+    },
+    "CRUD": {
+        "NAV": "Editar/Crear Tarea",
+        "TITLE": "Título",
+        "DESCRIPTION": "Descripción",
+        "STATUS": "Estado"
+    }
+}

@@ -1,0 +1,64 @@
+:host{
+    width: 450px;
+    height: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid;
+    align-items: flex-end;
+  }
+  
+  .form {
+    display: flex;
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    flex-direction: column;
+  
+    &__tag-input {
+      display: flex;
+      align-items: center;
+  
+      &__field {
+        flex: 1;
+      }
+    }
+  
+    &__tag-display {
+      display: inline-block;
+      margin-right: 8px;
+      /* Espacio entre chips */
+      margin-bottom: 8px;
+      /* Espacio entre chips */
+    }
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    &__spinner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 50%;
+    }
+  
+    &__spin {
+        margin-top: 100%;
+    }
+  }
+  
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &__button {
+        margin: 0 5px;
+    }
+  }

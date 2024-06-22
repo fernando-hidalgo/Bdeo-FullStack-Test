@@ -1,0 +1,33 @@
+:host {
+    width: 450px;
+    height: 100%;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0; /* Fondo gris claro */
+
+    &__spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 50%;
+        background-color: #f0f0f0; /* Fondo gris claro */
+    }
+
+    &__spin {
+        margin-top: 100%;
+        background-color: #f0f0f0; /* Fondo gris claro */
+    }
+}

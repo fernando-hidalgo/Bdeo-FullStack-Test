@@ -1,0 +1,21 @@
+<p-card class="card">
+    
+    <p class="card__title">{{title}}</p>
+
+    <p class="card__description">{{description}}</p>
+
+    <div class="card__status">
+        <span class="card__status__label">{{"CARD.STATUS" | translate}}</span>
+        <span class="card__status__value">{{status}}</span>
+    </div>
+
+    <div class="card__action">
+        <button mat-icon-button color="accent" class="action__button" (click)="editTask()">
+            <mat-icon>mode_edit</mat-icon>
+        </button>
+
+        <button mat-icon-button color="accent" class="action__button" (click)="deleteTask()">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</p-card>

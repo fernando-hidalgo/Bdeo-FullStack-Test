@@ -1,0 +1,23 @@
+<div class="header">
+    <button mat-icon-button color="accent" routerLink="/new">
+        <mat-icon>add</mat-icon>
+    </button>
+</div>
+
+<div class="content">
+    <div *ngIf="tasks$ | async as tasks; else skeleton">
+        <app-c-task-card *ngFor="let task of tasks"
+            [id]="task._id"
+            [title]="task.title"
+            [description]="task.description"
+            [status]="task.status"
+            (taskDeleted)="onTaskDeleted($event)">
+        </app-c-task-card>
+    </div>
+
+    <ng-template #skeleton>
+        <div class="content__spinner">
+            <mat-spinner color="accent" class="content__spinner__spin"></mat-spinner>
+        </div>
+    </ng-template>
+</div>
