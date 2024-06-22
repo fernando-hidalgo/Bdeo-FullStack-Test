@@ -74,7 +74,7 @@ Para facilitar dicho anidamiento, se usa una nomenclatura padre-hijo para las cl
 El diseño en escritorio se muestra apegado a la vista móvil, siendo esta responsiva en múltiples dispositivos
 
 ### Testing
-Para el testing, se ha utilizado la herramienta Karma Jasmine, opción por defecto de Agular, desarrollando tests para las nuevas vistas, componentes y servicios de interacción con el backend
+Para el testing, se ha utilizado la herramienta Karma Jasmine, opción por defecto de Agular, desarrollando tests para las nuevas vistas, componentes y servicios de interacción con el backend. En el caso del backend, el testing se ha realizado con Jest
 
 ## Mejoras Futuras
 En caso de contar con más tiempo para el desarrollo de la prueba, sería conveniente añadir elementos de alerta al usuario, según sus interacciones (toasts)
